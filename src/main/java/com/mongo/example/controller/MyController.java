@@ -14,6 +14,8 @@ import com.mongo.example.repo.StudentRepository;
 @RestController
 @RequestMapping("/student")
 public class MyController {
+
+	
 	@Autowired
 	private StudentRepository studentRepository;
 	
